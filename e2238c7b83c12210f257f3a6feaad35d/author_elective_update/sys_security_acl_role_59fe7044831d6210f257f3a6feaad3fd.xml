@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:43:32</sys_created_on>
+        <sys_id>59fe7044831d6210f257f3a6feaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1734342_pletra_0_employee_data.x_1734342_pletra_0.admin</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_security_acl display_value="x_1734342_pletra_0_employee_data">d1fe7044831d6210f257f3a6feaad3fa</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_59fe7044831d6210f257f3a6feaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:43:32</sys_updated_on>
+        <sys_user_role display_value="x_1734342_pletra_0.admin" name="x_1734342_pletra_0.admin">e6238c7b83c12210f257f3a6feaad381</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sys_security_acl_role_59fe7044831d6210f257f3a6feaad3fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:43:32</sys_created_on><sys_id>59fe7044831d6210f257f3a6feaad3fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1734342_pletra_0_employee_data.x_1734342_pletra_0.admin</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_security_acl display_value="x_1734342_pletra_0_employee_data">d1fe7044831d6210f257f3a6feaad3fa</sys_security_acl><sys_update_name>sys_security_acl_role_59fe7044831d6210f257f3a6feaad3fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:43:32</sys_updated_on><sys_user_role display_value="x_1734342_pletra_0.admin" name="x_1734342_pletra_0.admin">e6238c7b83c12210f257f3a6feaad381</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1175351761</payload_hash>
+        <record_name>x_1734342_pletra_0_employee_data.x_1734342_pletra_0.admin</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:43:32</sys_created_on>
+        <sys_id>51feb044831d6210f257f3a6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967fdb7bb00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:43:32</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>55feb044df1d6210b2387e30138440ec</update_guid>
+        <update_guid_history>55feb044df1d6210b2387e30138440ec:-1175351761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1734342_pletra_0_employee_data.x_1734342_pletra_0.admin">bd334988831d6210f257f3a6feaad3df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 05:02:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2909fbba898d448387bfbe2c60e22e41</sys_id>
+        <sys_metadata>59fe7044831d6210f257f3a6feaad3fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1734342_pletra_0_employee_data.x_1734342_pletra_0.admin</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent display_value="">d1fe7044831d6210f257f3a6feaad3fa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_59fe7044831d6210f257f3a6feaad3fd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_59fe7044831d6210f257f3a6feaad3fd">51feb044831d6210f257f3a6feaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 05:02:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

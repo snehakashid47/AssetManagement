@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record Page(request)">f4d430d40dada6505daad7ad981ac55f</macroponent>
+        <name>Set catalog Imge</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var model = {};
+    var input = api.data.look_up_records_1.results[0].cat_item._reference;
+    var modelData = input.picture.displayValue;
+    if (modelData != undefined) {
+        model.headerImage = modelData;
+        model.fieldLabel = "Test value"; //Here only to support the required structure of the object
+    }
+    api.setState('setImage', model);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 08:53:29</sys_created_on>
+        <sys_id>30d430d45bada650993f8cef51e33354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set catalog Imge</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_ux_client_script_30d430d45bada650993f8cef51e33354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:53:29</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

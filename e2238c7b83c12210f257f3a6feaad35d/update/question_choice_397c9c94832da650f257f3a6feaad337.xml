@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Location">cf2c9494832da650f257f3a6feaad382</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 07:07:00</sys_created_on>
+        <sys_id>397c9c94832da650f257f3a6feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pune</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>question_choice_397c9c94832da650f257f3a6feaad337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 07:07:00</sys_updated_on>
+        <text>Pune</text>
+        <value>pune</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=397c9c94832da650f257f3a6feaad337"/>
+</record_update>

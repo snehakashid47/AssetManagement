@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($timeout) {
+  var c = this;
+
+  $timeout(function() {
+    var links = document.querySelectorAll('.navbar-nav li a');
+    links.forEach(function(link) {
+      var text = link.textContent.trim();
+      if (text === "More" || text === "Get support" || text === "Tours") {
+        link.style.display = 'none';
+      }
+    });
+  }, 1000); // wait 1 second for navbar to render
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.navbar-nav li a[href*="More"],&#13;
+.navbar-nav li a[href*="Get support"],&#13;
+.navbar-nav li a[href*="Tours"] {&#13;
+  display: none !important;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Copy of Hide nav bar</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 06:49:19</sys_created_on>
+        <sys_id>0835f3c983a9ea50f257f3a6feaad337</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Hide nav bar</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_widget_0835f3c983a9ea50f257f3a6feaad337</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 06:52:08</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sp_widget_0835f3c983a9ea50f257f3a6feaad337</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($timeout) {
+  var c = this;
+
+  $timeout(function() {
+    var links = document.querySelectorAll('.navbar-nav li a');
+    links.forEach(function(link) {
+      var text = link.textContent.trim();
+      if (text === "More" || text === "Get support" || text === "Tours") {
+        link.style.display = 'none';
+      }
+    });
+  }, 1000); // wait 1 second for navbar to render
+};
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.navbar-nav li a[href*="More"],&amp;#13;
+.navbar-nav li a[href*="Get support"],&amp;#13;
+.navbar-nav li a[href*="Tours"] {&amp;#13;
+  display: none !important;&amp;#13;
+}&amp;#13;
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Copy of Hide nav bar&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-15 06:49:19&lt;/sys_created_on&gt;&lt;sys_id&gt;0835f3c983a9ea50f257f3a6feaad337&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Hide nav bar&lt;/sys_name&gt;&lt;sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0"&gt;e2238c7b83c12210f257f3a6feaad35d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pletra Asset Management"&gt;e2238c7b83c12210f257f3a6feaad35d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_0835f3c983a9ea50f257f3a6feaad337&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-15 06:52:08&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>884084697</payload_hash>
+        <record_name>Copy of Hide nav bar</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 06:52:08</sys_created_on>
+        <sys_id>cdd5338d83a9ea50f257f3a6feaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196d2b6f68a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 06:52:08</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>85d5338d24a9ea506d5088101c5f7a30</update_guid>
+        <update_guid_history>85d5338d24a9ea506d5088101c5f7a30:884084697,cc35f3c995a9ea504c8a6f3e924bd938:-298484313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Hide nav bar">ea8ebfc983e9ea50f257f3a6feaad39e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 07:30:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>346a856ce83545868af2b2354f59efa4</sys_id>
+        <sys_metadata>0835f3c983a9ea50f257f3a6feaad337</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Hide nav bar</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sp_widget_0835f3c983a9ea50f257f3a6feaad337</sys_update_name>
+        <sys_update_version display_value="sp_widget_0835f3c983a9ea50f257f3a6feaad337">cdd5338d83a9ea50f257f3a6feaad330</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 07:30:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

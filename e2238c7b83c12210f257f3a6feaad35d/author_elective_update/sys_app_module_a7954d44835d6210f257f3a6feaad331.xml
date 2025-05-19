@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Pletra 0 1745903226587</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1734342_pletra_0_1745903226587</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 05:12:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7954d44835d6210f257f3a6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pletra 0 1745903226587</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_app_module_a7954d44835d6210f257f3a6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 05:12:38</sys_updated_on>
+        <timeline_page/>
+        <title>Pletra 0 1745903226587</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sys_app_module_a7954d44835d6210f257f3a6feaad331</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Pletra 0 1745903226587</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1734342_pletra_0_1745903226587</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 05:12:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7954d44835d6210f257f3a6feaad331</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Pletra 0 1745903226587</sys_name><sys_overrides/><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sys_app_module_a7954d44835d6210f257f3a6feaad331</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 05:12:38</sys_updated_on><timeline_page/><title>Pletra 0 1745903226587</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-207257248</payload_hash>
+        <record_name>Pletra 0 1745903226587</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 05:12:38</sys_created_on>
+        <sys_id>2f954d44835d6210f257f3a6feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967ff61e4b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 05:12:38</sys_updated_on>
+        <type>Module</type>
+        <update_guid>23954d446f5d6210ea8dbbd4383bc833</update_guid>
+        <update_guid_history>23954d446f5d6210ea8dbbd4383bc833:-207257248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pletra 0 1745903226587">f7260d84835d6210f257f3a6feaad3c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 05:15:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>75db75f9e55f4600bc56ea899baa4000</sys_id>
+        <sys_metadata>a7954d44835d6210f257f3a6feaad331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pletra 0 1745903226587</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sys_app_module_a7954d44835d6210f257f3a6feaad331</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a7954d44835d6210f257f3a6feaad331">2f954d44835d6210f257f3a6feaad333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 05:15:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

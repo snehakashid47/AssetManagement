@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="29b0146a8321a290f257f3a6feaad377" label="employee_exit_assets" max_length="40" name="x_1734342_pletra_0_employee_exit_assets" type="collection">
+        <element label="Additional Comments" max_length="255" name="additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Assets Possessed" max_length="255" name="assets_possessed" type="string"/>
+        <element choice="3" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indore" sequence="0" value="indore"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Pune" sequence="1" value="pune"/>
+            </choice>
+        </element>
+        <element choice="3" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business Development" sequence="2" value="business_development"/>
+                <element inactive_on_update="false" label="Customer Support" sequence="9" value="customer_support"/>
+                <element inactive_on_update="false" label="FullStack" sequence="5" value="fullstack"/>
+                <element inactive_on_update="false" label="HR" sequence="1" value="hr"/>
+                <element inactive_on_update="false" label="Management" sequence="8" value="management"/>
+                <element inactive_on_update="false" label="Accounts" sequence="0" value="accounts"/>
+                <element inactive_on_update="false" label="Digital Marketing" sequence="7" value="digital_marketing"/>
+                <element inactive_on_update="false" label="ServiceNow" sequence="4" value="servicenow"/>
+                <element inactive_on_update="false" label="Admin" sequence="6" value="admin"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="3" value="salesforce"/>
+            </choice>
+        </element>
+        <element label="Employee ID" max_length="40" name="employee_id" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Employee Name" max_length="255" name="employee_name" type="string"/>
+        <element label="Date of Leaving" max_length="40" name="date_of_leaving" type="glide_date"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

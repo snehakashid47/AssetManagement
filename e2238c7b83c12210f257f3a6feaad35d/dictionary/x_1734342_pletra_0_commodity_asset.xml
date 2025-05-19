@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ad694818399a610f257f3a6feaad347" label="Commodity Asset" max_length="40" name="x_1734342_pletra_0_commodity_asset" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cleaning Supplies" sequence="0" value="cleaning_supplies"/>
+                <element inactive_on_update="false" label="Hygiene Supplies" sequence="1" value="hygiene_supplies"/>
+                <element inactive_on_update="false" label="Pantry Supplies" sequence="2" value="pantry_supplies"/>
+                <element inactive_on_update="false" label="Office Supplies" sequence="4" value="Office Supplies"/>
+                <element inactive_on_update="false" label="Water Utility" sequence="3" value="water_utility"/>
+            </choice>
+        </element>
+        <element choice="1" label="Unit" max_length="40" name="unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="kg" sequence="0" value="kg"/>
+                <element inactive_on_update="false" label="litre" sequence="1" value="litre"/>
+                <element inactive_on_update="false" label="packs" sequence="2" value="packs"/>
+                <element inactive_on_update="false" label="pieces" sequence="3" value="pieces"/>
+                <element inactive_on_update="false" label="grams" sequence="4" value="grams"/>
+            </choice>
+        </element>
+        <element label="Estimated Daily Use" max_length="40" name="estimated_daily_use" type="integer"/>
+        <element label="Reorder Level" max_length="40" name="reorder_level" type="integer"/>
+        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indore" sequence="1" value="indore"/>
+                <element inactive_on_update="false" label="Pune" sequence="0" value="pune"/>
+            </choice>
+        </element>
+        <element label="Date When Added" max_length="40" name="date_when_added" type="glide_date"/>
+        <element label="No. of Items" max_length="255" name="no_of_items" type="integer"/>
+        <element label="Price per unit" max_length="255" name="price_per_unit" type="float"/>
+        <element label="Quantity in Stock" max_length="40" name="quantity_in_stock" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element formula="((price_per_unit*no_of_items)*0.18)" label="Taxes" max_length="255" name="taxes" type="float" virtual="true" virtual_type="formula"/>
+        <element formula="(price_per_unit*no_of_items)+taxes" label="Total Bill" max_length="255" name="total_bill" read_only="true" type="float" virtual="true" virtual_type="formula"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Vendor Name" max_length="255" name="vendor_name" type="string"/>
+        <element label="Notes" max_length="255" name="notes" type="string"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Item name" max_length="255" name="item_name" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="cleaning_supplies" inactive_on_update="false" label="Garbage Bags 30X50" sequence="0" value="Garbage Bags"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="Bags" sequence="5" value="Bags"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="ID Cards" sequence="9" value="ID Cards"/>
+                <element dependent_value="pantry_supplies" inactive_on_update="false" label="Tea Premix" sequence="2" value="Tea Premix"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="Coffee Mugs" sequence="6" value="Coffee Mugs"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="Trophies" sequence="10" value="Trophies"/>
+                <element dependent_value="cleaning_supplies" inactive_on_update="false" label="Garbage Bags 19X21" sequence="1" value="GARBAGE BAG 19X21"/>
+                <element dependent_value="pantry_supplies" inactive_on_update="false" label="Coffee Premix" sequence="3" value="Coffee Premix"/>
+                <element dependent_value="hygiene_supplies" inactive_on_update="false" label="Tissue Rolls" sequence="12" value="Tissue Rolls"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="Printing Papers" sequence="11" value="Printing Papers"/>
+                <element dependent_value="hygiene_supplies" inactive_on_update="false" label="C Fold Tissue" sequence="4" value="C Fold Tissue"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="Pens" sequence="7" value="Pens"/>
+                <element dependent_value="Office Supplies" inactive_on_update="false" label="Notepad" sequence="8" value="Notepad"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

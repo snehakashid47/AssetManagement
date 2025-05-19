@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>active</display_field>
+        <field_list>short_description,number,caller_id,state</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>active</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b3f14ee883692a50f257f3a6feaad31f</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from URL Definition">8ae61f55cb21020000f8d856634c9c93</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:09:06</sys_created_on>
+        <sys_id>bff14ee883692a50f257f3a6feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_instance_table_bff14ee883692a50f257f3a6feaad321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:09:06</sys_updated_on>
+        <table>incident</table>
+        <title>List</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=bff14ee883692a50f257f3a6feaad321"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sp_instance_table_bff14ee883692a50f257f3a6feaad321</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field>active</display_field><field_list>short_description,number,caller_id,state</field_list><filter/><glyph/><id/><maximum_entries>10</maximum_entries><order>1</order><order_by>active</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">b3f14ee883692a50f257f3a6feaad31f</sp_column><sp_page/><sp_widget display_value="Data Table from URL Definition">8ae61f55cb21020000f8d856634c9c93</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 09:09:06</sys_created_on><sys_id>bff14ee883692a50f257f3a6feaad321</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sp_instance_table_bff14ee883692a50f257f3a6feaad321</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-13 09:09:06</sys_updated_on><table>incident</table><title>List</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=bff14ee883692a50f257f3a6feaad321"/></record_update>]]></payload>
+        <payload_hash>2043633882</payload_hash>
+        <record_name>List</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:09:06</sys_created_on>
+        <sys_id>7ff14ee883692a50f257f3a6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c8e7a4bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:09:06</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>73f14ee8ee692a507eee048d9042dd24</update_guid>
+        <update_guid_history>73f14ee8ee692a507eee048d9042dd24:2043633882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List">57a59a6483e92a50f257f3a6feaad322</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 10:35:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>411957c49af346e8bf6235e226224640</sys_id>
+        <sys_metadata>bff14ee883692a50f257f3a6feaad321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sp_instance_table_bff14ee883692a50f257f3a6feaad321</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_bff14ee883692a50f257f3a6feaad321">7ff14ee883692a50f257f3a6feaad324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 10:35:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

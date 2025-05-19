@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Financial" section_id="944eb004831d6210f257f3a6feaad3cc" sys_domain="global" table="x_1734342_pletra_0_centralized_asset_table" version="3" view="itam_workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>944eb004831d6210f257f3a6feaad3cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>9c4eb004831d6210f257f3a6feaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_line</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>944eb004831d6210f257f3a6feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>944eb004831d6210f257f3a6feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>9c4eb004831d6210f257f3a6feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_line.opened_at</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>9c4eb004831d6210f257f3a6feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gl_account</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>944eb004831d6210f257f3a6feaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>944eb004831d6210f257f3a6feaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acquisition_method</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_id>9c4eb004831d6210f257f3a6feaad3cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>944eb004831d6210f257f3a6feaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1734342_pletra_0_centralized_asset_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+            <sys_update_name>sys_ui_section_944eb004831d6210f257f3a6feaad3cc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sys_ui_section_944eb004831d6210f257f3a6feaad3cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Financial" section_id="944eb004831d6210f257f3a6feaad3cc" sys_domain="global" table="x_1734342_pletra_0_centralized_asset_table" version="3" view="itam_workspace"><sys_ui_element action="INSERT_OR_UPDATE"><element>vendor</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>944eb004831d6210f257f3a6feaad3cd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>po_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>9c4eb004831d6210f257f3a6feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>request_line</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>944eb004831d6210f257f3a6feaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cost</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>944eb004831d6210f257f3a6feaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>9c4eb004831d6210f257f3a6feaad3ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>request_line.opened_at</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>9c4eb004831d6210f257f3a6feaad3d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>gl_account</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>944eb004831d6210f257f3a6feaad3cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cost_center</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>944eb004831d6210f257f3a6feaad3d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>acquisition_method</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_id>9c4eb004831d6210f257f3a6feaad3cd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Financial" display_value="Financial" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">944eb004831d6210f257f3a6feaad3cc</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Financial</caption><header>false</header><name>x_1734342_pletra_0_centralized_asset_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>944eb004831d6210f257f3a6feaad3cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1734342_pletra_0_centralized_asset_table</sys_name><sys_overrides/><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sys_ui_section_944eb004831d6210f257f3a6feaad3cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:28</sys_updated_on><sys_user/><title>false</title><view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1532971334</payload_hash>
+        <record_name>Centralized Asset Table</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:40:28</sys_created_on>
+        <sys_id>dc4eb004831d6210f257f3a6feaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967fd8abd20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:40:28</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>544eb004b01d6210590571869fea21d3</update_guid>
+        <update_guid_history>544eb004b01d6210590571869fea21d3:1532971334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 09:09:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>53a7d0319f59453492d42a33c49e80d9</sys_id>
+        <sys_metadata>944eb004831d6210f257f3a6feaad3cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Financial</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent display_value="">6e3eb004831d6210f257f3a6feaad305</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sys_ui_section_944eb004831d6210f257f3a6feaad3cc</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_944eb004831d6210f257f3a6feaad3cc">dc4eb004831d6210f257f3a6feaad3d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 09:09:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

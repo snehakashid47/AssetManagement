@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_phone_1" label="Phone 1" language="en" table="x_1734342_pletra_0_1745903014764">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_phone_1</element>
+            <help/>
+            <hint/>
+            <label>Phone 1</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_1745903014764</name>
+            <plural>Phone 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-29 05:03:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Phone 1</sys_name>
+            <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+            <sys_update_name>sys_documentation_x_1734342_pletra_0_1745903014764_u_phone_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-29 05:03:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

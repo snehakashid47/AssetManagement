@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>standard</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure>%table %t list</dynamic_title_structure>
+        <human_readable_url_structure/>
+        <id>copy_of_list_1</id>
+        <internal>true</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>List of Records using Data Table</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:09:06</sys_created_on>
+        <sys_id>f3f146e883692a50f257f3a6feaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_list_1</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_page_f3f146e883692a50f257f3a6feaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:09:06</sys_updated_on>
+        <title>Copy of List (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=f3f146e883692a50f257f3a6feaad369"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sp_page_f3f146e883692a50f257f3a6feaad369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>standard</category><css/><draft>false</draft><dynamic_title_structure>%table %t list</dynamic_title_structure><human_readable_url_structure/><id>copy_of_list_1</id><internal>true</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description>List of Records using Data Table</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 09:09:06</sys_created_on><sys_id>f3f146e883692a50f257f3a6feaad369</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_list_1</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sp_page_f3f146e883692a50f257f3a6feaad369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-13 09:09:06</sys_updated_on><title>Copy of List (1)</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=f3f146e883692a50f257f3a6feaad369"/></record_update>]]></payload>
+        <payload_hash>-588178028</payload_hash>
+        <record_name>copy_of_list_1</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:09:06</sys_created_on>
+        <sys_id>3bf14ee883692a50f257f3a6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c8e7a42d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:09:06</sys_updated_on>
+        <type>Page</type>
+        <update_guid>3ff14ee830692a50c782fdb0d6453518</update_guid>
+        <update_guid_history>3ff14ee830692a50c782fdb0d6453518:-588178028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_list_1">cfa59a6483e92a50f257f3a6feaad312</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 10:35:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>00801eaf3ec4479a88c0d5a1f306bba4</sys_id>
+        <sys_metadata>f3f146e883692a50f257f3a6feaad369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_list_1</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sp_page_f3f146e883692a50f257f3a6feaad369</sys_update_name>
+        <sys_update_version display_value="sp_page_f3f146e883692a50f257f3a6feaad369">3bf14ee883692a50f257f3a6feaad319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 10:35:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

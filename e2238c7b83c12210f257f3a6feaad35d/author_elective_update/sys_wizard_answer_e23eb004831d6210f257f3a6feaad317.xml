@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Centralized Asset Table</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Centralized Asset Table</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Asset" name="Asset">a28d237047622100158b949b6c9a710d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:40:21</sys_created_on>
+        <sys_id>e23eb004831d6210f257f3a6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Centralized Asset Table</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_wizard_answer_e23eb004831d6210f257f3a6feaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:40:21</sys_updated_on>
+        <table/>
+        <target_url>x_1734342_pletra_0_centralized_asset_table.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sys_wizard_answer_e23eb004831d6210f257f3a6feaad317</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Centralized Asset Table</answer><button_label/><dependent_value/><element/><name>Centralized Asset Table</name><next_question/><order>100</order><payload_name/><question display_value="Asset" name="Asset">a28d237047622100158b949b6c9a710d</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-29 04:40:21</sys_created_on><sys_id>e23eb004831d6210f257f3a6feaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Centralized Asset Table</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sys_wizard_answer_e23eb004831d6210f257f3a6feaad317</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-29 04:40:21</sys_updated_on><table/><target_url>x_1734342_pletra_0_centralized_asset_table.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>2063541004</payload_hash>
+        <record_name>Centralized Asset Table</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:40:21</sys_created_on>
+        <sys_id>aa3eb004831d6210f257f3a6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967fd88fbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:40:21</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>ae3eb004e31d62108cd891dba3e5cd19</update_guid>
+        <update_guid_history>ae3eb004e31d62108cd891dba3e5cd19:2063541004</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 09:09:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>093417e3154e421497a232a65d0d95a4</sys_id>
+        <sys_metadata>e23eb004831d6210f257f3a6feaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Centralized Asset Table</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent display_value="Asset">a28d237047622100158b949b6c9a710d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_e23eb004831d6210f257f3a6feaad317</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_e23eb004831d6210f257f3a6feaad317">aa3eb004831d6210f257f3a6feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 09:09:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
