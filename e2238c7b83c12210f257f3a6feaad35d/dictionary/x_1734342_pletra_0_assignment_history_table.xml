@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ff21aaef83b92610f257f3a6feaad3fe" label="Assignment History Table" max_length="40" name="x_1734342_pletra_0_assignment_history_table" type="collection">
+        <element label="Unassigned Date" max_length="40" name="unassigned_date" type="glide_date"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element label="Assigned To" max_length="255" name="assigned_to" type="string"/>
+        <element label="Assignment Date" max_length="40" name="assignment_date" type="glide_date"/>
+        <element label="Asset" max_length="32" name="asset" reference="x_1734342_pletra_0_centralized_asset_table" type="reference"/>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="serial_number"/>
+        </index>
+    </element>
+</database>

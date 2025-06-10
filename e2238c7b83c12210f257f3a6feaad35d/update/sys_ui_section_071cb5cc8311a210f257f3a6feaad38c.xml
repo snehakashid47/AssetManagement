@@ -4,223 +4,265 @@
             <element>emp_id</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>a2b1e42283a1a290f257f3a6feaad30c</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>2f9c2b9183f56a10f257f3a6feaad3dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
+            <element>assigned_on</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad30c</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>e79c2b9183f56a10f257f3a6feaad3de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>6f9c2b9183f56a10f257f3a6feaad3de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad30d</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>e39c2b9183f56a10f257f3a6feaad3df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>asset_type</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad30d</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>6b9c2b9183f56a10f257f3a6feaad3df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>manufacturer</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad30e</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>ef9c2b9183f56a10f257f3a6feaad3df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>product_number</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad30e</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>679c2b9183f56a10f257f3a6feaad3e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>serial_number</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad30f</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>eb9c2b9183f56a10f257f3a6feaad3e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>warranty_till</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad30f</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>639c2b9183f56a10f257f3a6feaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad310</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>e79c2b9183f56a10f257f3a6feaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>9</position>
+            <element>location</element>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad310</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>6f9c2b9183f56a10f257f3a6feaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>e39c2b9183f56a10f257f3a6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>department</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad311</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>6b9c2b9183f56a10f257f3a6feaad3e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>model_number</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad311</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>ef9c2b9183f56a10f257f3a6feaad3e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cost</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad312</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>679c2b9183f56a10f257f3a6feaad3e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>quantity</element>
-            <position>13</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad312</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>eb9c2b9183f56a10f257f3a6feaad3e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>invoice</element>
-            <position>14</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>e6b1e42283a1a290f257f3a6feaad313</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>639c2b9183f56a10f257f3a6feaad3e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upload_images_of_asset</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>e79c2b9183f56a10f257f3a6feaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>additional_notes</element>
-            <position>15</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-05-19 07:16:20</sys_created_on>
-            <sys_id>eeb1e42283a1a290f257f3a6feaad313</sys_id>
+            <sys_created_on>2025-05-28 11:06:04</sys_created_on>
+            <sys_id>6f9c2b9183f56a10f257f3a6feaad3e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1734342_pletra_0_centralized_asset_table" sys_domain="global" view="Default view">071cb5cc8311a210f257f3a6feaad38c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-05-19 07:16:20</sys_updated_on>
+            <sys_updated_on>2025-05-28 11:06:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

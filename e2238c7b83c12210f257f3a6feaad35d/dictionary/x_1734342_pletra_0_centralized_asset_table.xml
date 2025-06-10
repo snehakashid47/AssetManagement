@@ -2,6 +2,7 @@
     <element db_object_id="4a1c39408391a210f257f3a6feaad360" label="Centralized Asset Table" max_length="40" name="x_1734342_pletra_0_centralized_asset_table" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Model" max_length="255" name="model" type="string"/>
+        <element label="Upload Images of Asset" max_length="40" name="upload_images_of_asset" type="file_attachment"/>
         <element choice="1" label="Asset Type" mandatory="true" max_length="40" name="asset_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Mouse" sequence="2" value="mouse"/>
@@ -20,8 +21,10 @@
                 <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
             </choice>
         </element>
-        <element label="Serial Number" mandatory="true" max_length="255" name="serial_number" type="string"/>
+        <element display="true" label="Serial Number" mandatory="true" max_length="255" name="serial_number" type="string"/>
         <element label="Assigned To" max_length="255" name="assigned_to" type="string"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_2" type="table_name"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element label="Invoice" max_length="40" name="invoice" type="file_attachment"/>
         <element choice="3" label="Quantity" max_length="40" name="quantity" type="choice">
             <choice>
@@ -37,6 +40,7 @@
         <element label="Assigned On" max_length="40" name="assigned_on" type="glide_date"/>
         <element label="Warranty Till" max_length="40" name="warranty_till" type="glide_date"/>
         <element label="Additional Notes" max_length="100" name="additional_notes" type="string"/>
+        <element label="Email Id" max_length="40" name="email_id" type="string"/>
         <element label="Manufacturer" max_length="255" name="manufacturer" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Lenovo" sequence="1" value="Lenovo"/>
@@ -48,7 +52,7 @@
                 <element inactive_on_update="false" label="Acer" sequence="4" value="Acer"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=true" choice="1" display="true" label="Department" max_length="40" name="department" type="choice">
+        <element attributes="encode_utf8=true" choice="1" label="Department" max_length="40" name="department" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Accounts" sequence="2" value="Accounts"/>
                 <element inactive_on_update="false" label="Quality Analyst" sequence="8" value="quality_analyst"/>
@@ -79,6 +83,9 @@
         </index>
         <index name="index2">
             <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_1"/>
         </index>
     </element>
 </database>

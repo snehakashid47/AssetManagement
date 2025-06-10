@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1734342_pletra_0.GetEmployeeDetails </api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetEmployeeDetails </name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetEmployeeDetails = Class.create();
+GetEmployeeDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getEmployeeName: function() {
+        var empId = this.getParameter('sysparm_emp_id');
+        gs.info('DEBUG: Received emp_id: ' + empId);
+
+        var gr = new GlideRecord('x_1734342_pletra_0_centralized_asset_table');
+        gr.addQuery('emp_id', empId);
+        gr.query();
+
+        if (gr.next()) {
+            var empName = gr.getDisplayValue('assigned_to'); // Gets display value
+            gs.info('DEBUG: Found employee: ' + empName);
+            return empName;
+        } else {
+            gs.info('DEBUG: No record found for emp_id: ' + empId);
+        }
+        return '';
+    }
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-19 10:06:49</sys_created_on>
+        <sys_id>7608cdee8365a290f257f3a6feaad35d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetEmployeeDetails </sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_script_include_7608cdee8365a290f257f3a6feaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-19 10:36:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -7,7 +7,8 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_1734342_pletra_0_new_asset_request</collection>
-        <condition table="x_1734342_pletra_0_new_asset_request">status=completed^EQ<item display_value="Completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="completed"/>
+        <condition table="x_1734342_pletra_0_new_asset_request">status=completed^location=pune^EQ<item display_value="Completed" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="completed"/>
+            <item display_value="Pune" endquery="false" field="location" goto="false" newquery="false" operator="=" or="false" value="pune"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -54,7 +55,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441,48505c1483e9a650f257f3a6feaad377,sneha.kashid@pletratech.com</recipient_users>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,48505c1483e9a650f257f3a6feaad377,pletratechnologies18@gmail.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -67,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>23b81d2483a52a50f257f3a6feaad300</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Send email to Hr when asset is allotted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
@@ -75,7 +76,7 @@
         <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
         <sys_update_name>sysevent_email_action_23b81d2483a52a50f257f3a6feaad300</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-13 06:18:15</sys_updated_on>
+        <sys_updated_on>2025-05-29 10:55:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

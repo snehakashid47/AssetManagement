@@ -9,7 +9,9 @@
     { label: 'Centralized Assets', name: 'x_1734342_pletra_0_centralized_asset_table' },
     { label: 'Capital Assets', name: 'x_1734342_pletra_0_capital_asset' },
     { label: 'Commodity Assets', name: 'x_1734342_pletra_0_commodity_asset' },
-    { label: 'New Hire Asset Requests', name: 'x_1734342_pletra_0_new_asset_request' }
+	{ label: 'Client Assets', name: 'x_1734342_pletra_0_client_asset_table' },
+	{ label: 'New Hire Asset Requests', name: 'x_1734342_pletra_0_new_asset_request' }
+
   ];
 
   // Returns standard UI list URL
@@ -54,17 +56,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-15 05:36:00</sys_created_on>
         <sys_id>a4b32f058369ea50f257f3a6feaad331</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>List Of All Tables</sys_name>
         <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
         <sys_update_name>sp_widget_a4b32f058369ea50f257f3a6feaad331</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-15 11:58:32</sys_updated_on>
+        <sys_updated_on>2025-05-29 06:12:52</sys_updated_on>
         <template><![CDATA[<div class="my-widget-container">
   <h5 class="text-primary mb-3" style="font-size: 2.5rem;">]]>🗂<![CDATA[️ Asset Database</h5>
-  <p class="mb-3" style="font-size: 1.8rem;">Click a table name to view all records.</p>
+  <p class="mb-3" style="font-size: 1.8rem;">Click on table name to view all records</p>
 
   <ul class="list-group">
     <li ng-repeat="table in c.tables" class="list-group-item d-flex justify-content-between align-items-center">

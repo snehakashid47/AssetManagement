@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f9e6612883e52a50f257f3a6feaad331</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Centralized Asset Table</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
@@ -33,11 +33,11 @@
         <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
         <sys_update_name>sys_app_module_f9e6612883e52a50f257f3a6feaad331</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-14 06:26:44</sys_updated_on>
+        <sys_updated_on>2025-06-03 11:19:49</sys_updated_on>
         <timeline_page/>
         <title>Centralized Asset Table</title>
         <uncancelable>false</uncancelable>
-        <view_name>Centralized Asset Table</view_name>
+        <view_name/>
         <window_name/>
     </sys_app_module>
 </record_update>

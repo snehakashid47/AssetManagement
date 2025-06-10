@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">d1fdf7e5837daa10f257f3a6feaad394</canvas>
+        <component display_value="Pie">96abe7e38d8790718022c5630a92176c</component>
+        <component_props>{"drilldownLabel":null,"selectedElements":[],"configVersion":"23.0.0-ci-SNAPSHOT","chartSize":null,"showDataLabels":true,"dataLabelsType":"both","maxLabelSize":null,"truncationType":"end","showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendMaxItemWidth":null,"legendExpandToFit":false,"showRegisterPercentage":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Centralized Asset Table","sourceType":"table","tableOrViewName":"x_1734342_pletra_0_centralized_asset_table","filterQuery":"location=pune","reportSourceSysId":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE3MzQzNDJfcGxldHJhXzBfY2VudHJhbGl6ZWRfYXNzZXRfdGFibGUxNzQ3MjA1NjIyNzI4","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"title":null,"headerTitle":null,"headingLevel":2,"description":null,"showBorder":true,"groupByConfig":null,"bareBorder":false,"formats":null,"dataCategory":null,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzE3MzQzNDJfcGxldHJhXzBfY2VudHJhbGl6ZWRfYXNzZXRfdGFibGUxNzQ3MjA1NjIyNzI4","id":"ZEdGaWJHVjRYekUzTXpRek5ESmZjR3hsZEhKaFh6QmZZMlZ1ZEhKaGJHbDZaV1JmWVhOelpYUmZkR0ZpYkdVeE56UTNNakExTmpJeU56STQxNzQ3MjA1NjI0Nzc2","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE3MzQzNDJfcGxldHJhXzBfY2VudHJhbGl6ZWRfYXNzZXRfdGFibGUxNzQ3MjA1NjIyNzI4","groupByField":"department","isRange":false,"isChoice":true,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":false}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"forecastConfig":null,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"kodc83pm","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"backgroundRefreshInterval":null,"standardFormatData":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"chartExtraConfig":null,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","startTime":null,"endTime":null,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"isComponentInView":null,"pageId":null,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"showDataLabels","value":true,"noDebounce":true,"propLabel":"Show data labels"}</component_props>
+        <h>12</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 07:00:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c0e7be5837daa10f257f3a6feaad359</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>par_dashboard_widget_8c0e7be5837daa10f257f3a6feaad359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 07:24:40</sys_updated_on>
+        <visualization/>
+        <w>31</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+</record_update>
