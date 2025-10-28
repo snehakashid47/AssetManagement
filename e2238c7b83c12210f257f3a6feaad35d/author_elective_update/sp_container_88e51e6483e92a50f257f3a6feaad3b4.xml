@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Pletra_Simple_List - Container 3</name>
+        <order>3</order>
+        <semantic_tag/>
+        <sp_page display_value="copy_of_test_list_1">80e51e6483e92a50f257f3a6feaad3b2</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 10:35:57</sys_created_on>
+        <sys_id>88e51e6483e92a50f257f3a6feaad3b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Pletra_Simple_List - Container 3</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_container_88e51e6483e92a50f257f3a6feaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 11:12:35</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sp_container_88e51e6483e92a50f257f3a6feaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Pletra_Simple_List - Container 3</name><order>3</order><semantic_tag/><sp_page display_value="copy_of_test_list_1">80e51e6483e92a50f257f3a6feaad3b2</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 10:35:57</sys_created_on><sys_id>88e51e6483e92a50f257f3a6feaad3b4</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Pletra_Simple_List - Container 3</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sp_container_88e51e6483e92a50f257f3a6feaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-14 11:12:35</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1345971941</payload_hash>
+        <record_name>Pletra_Simple_List - Container 3</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 11:12:35</sys_created_on>
+        <sys_id>62d76bbc8365aa50f257f3a6feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196ce7f0d810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 11:12:35</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2ad76bbc4565aa506e1a4f224086470d</update_guid>
+        <update_guid_history>2ad76bbc4565aa506e1a4f224086470d:-1345971941,e67b32b4f8a1aa500e8d92ace4da9020:-1949676102,4a6bbe7407a1aa505a2478620d109e85:-1345971941,d378fe708aa1aa502e19576a69cfdc70:-1949676102,c50756e453e92a507b9d2e447f4e936f:1741587033,cce51e64a1e92a5093c68294766970b5:-350995707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pletra_Simple_List - Container 3">9ce76bbc8365aa50f257f3a6feaad317</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-14 11:12:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1174c9cfe40444098c88a977dffd7339</sys_id>
+        <sys_metadata>88e51e6483e92a50f257f3a6feaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pletra_Simple_List - Container 3</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sp_container_88e51e6483e92a50f257f3a6feaad3b4</sys_update_name>
+        <sys_update_version display_value="sp_container_88e51e6483e92a50f257f3a6feaad3b4">62d76bbc8365aa50f257f3a6feaad30e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-14 11:12:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>requested_for</display_field>
+        <field_list/>
+        <filter table="x_1734342_pletra_0_new_asset_request">active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_to=^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>laptop</glyph>
+        <id/>
+        <maximum_entries>3</maximum_entries>
+        <order>1</order>
+        <order_by>active</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="1">868a309983212e50f257f3a6feaad3b5</sp_column>
+        <sp_page display_value="requests">31ed6a51d7130200a9ad1e173e24d479</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 10:35:57</sys_created_on>
+        <sys_id>c8e5de6483e92a50f257f3a6feaad30b</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>New Hire Asset Requests</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_instance_vlist_c8e5de6483e92a50f257f3a6feaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 12:14:13</sys_updated_on>
+        <table>x_1734342_pletra_0_new_asset_request</table>
+        <title>New Hire Asset Requests</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,designation,date_of_joining",
+		"displayValue": "number,designation,date_of_joining"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=c8e5de6483e92a50f257f3a6feaad30b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sp_instance_vlist_c8e5de6483e92a50f257f3a6feaad30b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;requested_for&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_1734342_pletra_0_new_asset_request"&gt;active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_to=^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="true" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter&gt;&lt;glyph&gt;laptop&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;3&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by&gt;active&lt;/order_by&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;lg&lt;/size&gt;&lt;sp_column display_value="1"&gt;868a309983212e50f257f3a6feaad3b5&lt;/sp_column&gt;&lt;sp_page display_value="requests"&gt;31ed6a51d7130200a9ad1e173e24d479&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-13 10:35:57&lt;/sys_created_on&gt;&lt;sys_id&gt;c8e5de6483e92a50f257f3a6feaad30b&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;New Hire Asset Requests&lt;/sys_name&gt;&lt;sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0"&gt;e2238c7b83c12210f257f3a6feaad35d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pletra Asset Management"&gt;e2238c7b83c12210f257f3a6feaad35d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_c8e5de6483e92a50f257f3a6feaad30b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-15 12:14:13&lt;/sys_updated_on&gt;&lt;table&gt;x_1734342_pletra_0_new_asset_request&lt;/table&gt;&lt;title&gt;New Hire Asset Requests&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,designation,date_of_joining",
+		"displayValue": "number,designation,date_of_joining"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c8e5de6483e92a50f257f3a6feaad30b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1742942251</payload_hash>
+        <record_name>New Hire Asset Requests</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 12:14:13</sys_created_on>
+        <sys_id>178f3c1183612e50f257f3a6feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196d3ddd9830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 12:14:13</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>db8f3c115c612e50b6ff1048cffc46e7</update_guid>
+        <update_guid_history>db8f3c115c612e50b6ff1048cffc46e7:-1742942251,428f3c1169612e50e8fdadd62fc7b047:497573416,fe8a70994c212e50f00895463b416334:-1117477913,d86a7c59f2212e50c0c06f91949f5009:-191344447,93c92f8d9869ea50a7c82929a9bc169b:606767931,15e117cd26e5ea50b71f470a1a898965:-713606593,3a519b4d47e5ea500d569205e7f0971e:1594914607,f9419b8d3de5ea5091a291e97b151993:-713606593,7ec0978dd4e5ea50b0dc5836bd3e1455:1594914607,42a0d38db5e5ea507eceb2f92d85282b:1775107604,8680d74da2e5ea500f669b5b2b34daf8:1690049939,bf1f8b89c2e5ea5004bd9bbe177cd84e:1394869642,7cf263f4ce65aa50fbba5b5b54bc86d7:-1236860945,90b26fb4fa65aa50b378438eef5e089e:-208304055,11d12bb42c65aa50100a3218e848f4fa:-398459239,5b0c7eb495a1aa50d5a629fad5f8e64c:-640149861,c04bba7421a1aa5013c7731309ca2ebe:-756034300,96fa7e34e1a1aa503ba20503c0da9e51:1510013860,ca8872b00ca1aa5003948a7d35376229:665669292,915c5aac71e92a50b0ce4772ded41cfb:-756034300,e47756e475e92a50dab1b879b9ace8ae:1571659526,5157dee468e92a5059614116b773fd07:306926821,61475ee497e92a506c5a66ab98576932:1496636516,05279ae4e7e92a507426385feedd1a48:1764721988,ecb6daa494e92a50743c68d38576926f:844514956,c856d2a480e92a502bdaa64974cf7ab2:-1046085526,40e5de647de92a503895b8026eb6b10d:-250685733</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Hire Asset Requests">1ca8f8e183256e50f257f3a6feaad381</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 06:22:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>1d39e0b9a2b84e528f6ba7ca7384a9a4</sys_id>
+        <sys_metadata>c8e5de6483e92a50f257f3a6feaad30b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Hire Asset Requests</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_c8e5de6483e92a50f257f3a6feaad30b</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_c8e5de6483e92a50f257f3a6feaad30b">178f3c1183612e50f257f3a6feaad3e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 06:22:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

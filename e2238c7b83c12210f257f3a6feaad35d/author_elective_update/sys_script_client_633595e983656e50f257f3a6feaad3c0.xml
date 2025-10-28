@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>On Submit return back to portal</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+  // Let the form submit normally
+  // After saving, redirect to /pam
+  return true;
+}
+
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 08:30:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>633595e983656e50f257f3a6feaad3c0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>On Submit return back to portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_script_client_633595e983656e50f257f3a6feaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 08:47:00</sys_updated_on>
+        <table>x_1734342_pletra_0_new_asset_request</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sys_script_client_633595e983656e50f257f3a6feaad3c0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;On Submit return back to portal&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+  // Let the form submit normally
+  // After saving, redirect to /pam
+  return true;
+}
+
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-16 08:30:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;633595e983656e50f257f3a6feaad3c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Submit return back to portal&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0"&gt;e2238c7b83c12210f257f3a6feaad35d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pletra Asset Management"&gt;e2238c7b83c12210f257f3a6feaad35d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_633595e983656e50f257f3a6feaad3c0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-16 08:47:00&lt;/sys_updated_on&gt;&lt;table&gt;x_1734342_pletra_0_new_asset_request&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1519352444</payload_hash>
+        <record_name>On Submit return back to portal</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 08:47:00</sys_created_on>
+        <sys_id>e9b9952183e56e50f257f3a6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196d8467f3d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 08:47:00</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a1b995212ae56e5041be40c3bcb4bc67</update_guid>
+        <update_guid_history>a1b995212ae56e5041be40c3bcb4bc67:1519352444,5b59912169e56e502b39c909e7264226:85951323,bfc819edeca56e505540a5e7e4994480:-1519893186,87f6d1e9fea56e50aebc6b3d7804015b:62093302,a8a6d9a91aa56e507ea2115bd806f323:46941366,af36dde96ea56e503dffcf108c9f6ef5:655029952,71e5d1e952a56e504b4ca20150a78b65:1444595985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 08:47:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>538159cf4d3d4d0abd7c1efe2fff9de4</sys_id>
+        <sys_metadata>633595e983656e50f257f3a6feaad3c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Submit return back to portal</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent display_value="New Asset Request">7d15c710831de210f257f3a6feaad359</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sys_script_client_633595e983656e50f257f3a6feaad3c0</sys_update_name>
+        <sys_update_version display_value="sys_script_client_633595e983656e50f257f3a6feaad3c0">e9b9952183e56e50f257f3a6feaad367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 08:47:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

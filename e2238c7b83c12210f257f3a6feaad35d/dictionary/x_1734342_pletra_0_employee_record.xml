@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="628609c4835d6210f257f3a6feaad354" label="Employee Record" max_length="40" name="x_1734342_pletra_0_employee_record" text_index="true" type="collection">
+        <element label="Email Id" max_length="255" name="email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,unique=true" label="Employee Id" max_length="255" name="employee_id" read_only="true" type="string"/>
+        <element label="Date of Leaving" max_length="255" name="date_of_leaving" type="glide_date"/>
+        <element label="Employee Name" max_length="40" name="employee_name" type="string"/>
+        <element choice="1" display="true" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accounts" sequence="9" value="accounts"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="0" value="salesforce"/>
+                <element inactive_on_update="false" label="Human Resource" sequence="4" value="human_resource"/>
+                <element inactive_on_update="false" label="HouseKeeping" sequence="8" value="housekeeping"/>
+                <element inactive_on_update="false" label="Full Stack" sequence="1" value="full_stack"/>
+                <element inactive_on_update="false" label="Digital Marketing" sequence="5" value="digital_marketing"/>
+                <element inactive_on_update="false" label="Servicenow" sequence="2" value="servicenow"/>
+                <element inactive_on_update="false" label="Customer Support" sequence="6" value="customer_support"/>
+                <element inactive_on_update="false" label="Management" sequence="10" value="management"/>
+                <element inactive_on_update="false" label="Business Development" sequence="3" value="business_development"/>
+                <element inactive_on_update="false" label="Admin" sequence="7" value="admin"/>
+            </choice>
+        </element>
+        <element label="Designation" max_length="40" name="designation" type="string"/>
+        <element label="Date of Joining" max_length="255" name="date_of_joining" type="glide_date"/>
+        <element label="Contact Number" max_length="40" name="contact_number" type="integer"/>
+    </element>
+</database>

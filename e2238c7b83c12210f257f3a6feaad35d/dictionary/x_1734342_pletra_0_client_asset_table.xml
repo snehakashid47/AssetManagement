@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0264bf1d83f56a10f257f3a6feaad399" label="Client Asset Table" max_length="40" name="x_1734342_pletra_0_client_asset_table" type="collection">
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned" sequence="1" value="returned"/>
+                <element inactive_on_update="false" label="In Use" sequence="0" value="in_use"/>
+            </choice>
+        </element>
+        <element choice="1" label="Manufacturer" max_length="40" name="manufacturer" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Apple" sequence="3" value="apple"/>
+                <element inactive_on_update="false" label="Dell" sequence="0" value="dell"/>
+                <element inactive_on_update="false" label="Lenovo" sequence="1" value="lenovo"/>
+                <element inactive_on_update="false" label="HP" sequence="2" value="hp"/>
+            </choice>
+        </element>
+        <element label="Employee Id" max_length="40" name="employee_id" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Product Number" max_length="255" name="product_number" type="string"/>
+        <element label="Employee Name" max_length="255" name="employee_name" type="string"/>
+        <element label="Model Number" max_length="255" name="model_number" type="string"/>
+        <element label="Client Name" max_length="255" name="client_name" type="string"/>
+        <element label="Serial Number" max_length="255" name="serial_number" type="string"/>
+        <element label="Remarks" max_length="255" name="remarks" type="string"/>
+    </element>
+</database>

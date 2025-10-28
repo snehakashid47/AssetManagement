@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+  var c = this;
+
+  // List of tables to display
+  c.tables = [
+    { label: 'Centralized Assets', name: 'x_1734342_pletra_0_centralized_asset_table' },
+    { label: 'Capital Assets', name: 'x_1734342_pletra_0_capital_asset' },
+    { label: 'Commodity Assets', name: 'x_1734342_pletra_0_commodity_asset' },
+	{ label: 'Client Assets', name: 'x_1734342_pletra_0_client_asset_table' },
+	{ label: 'New Hire Asset Requests', name: 'x_1734342_pletra_0_new_asset_request' }
+
+  ];
+
+  // Returns standard UI list URL
+  c.getLink = function(table) {
+    return `/${table.name}_list.do`;
+  };
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.my-widget-container {&#13;
+  min-height: 250px;&#13;
+  border: 1px solid #ddd;                /* Light gray border */&#13;
+  border-radius: 12px;                   /* Rounded corners */&#13;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Soft shadow */&#13;
+  padding: 15px;                         /* Space inside */&#13;
+  background-color: #ffffff;     &#13;
+  margin-bottom:20px/* Clean white background */                   /* Space above &amp; below */&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>List Of All Tables</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>x_1734342_pletra_0.admin</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-15 05:36:00</sys_created_on>
+        <sys_id>a4b32f058369ea50f257f3a6feaad331</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>List Of All Tables</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_widget_a4b32f058369ea50f257f3a6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 06:12:52</sys_updated_on>
+        <template><![CDATA[<div class="my-widget-container">
+  <h5 class="text-primary mb-3" style="font-size: 2.5rem;">]]>🗂<![CDATA[️ Asset Database</h5>
+  <p class="mb-3" style="font-size: 1.8rem;">Click on table name to view all records</p>
+
+  <ul class="list-group">
+    <li ng-repeat="table in c.tables" class="list-group-item d-flex justify-content-between align-items-center">
+      <a ng-href="/{{table.name}}_list.do" target="_blank" rel="noopener noreferrer" class="text-decoration-none" style="font-size: 1.5rem; font-weight: bold;">
+        {{ table.label }}
+      </a>
+    </li>
+  </ul>
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

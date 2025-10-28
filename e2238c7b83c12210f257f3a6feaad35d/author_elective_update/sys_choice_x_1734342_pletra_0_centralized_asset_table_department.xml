@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="department" table="x_1734342_pletra_0_centralized_asset_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>department</sys_name>
+            <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+            <sys_update_name>sys_choice_x_1734342_pletra_0_centralized_asset_table_department</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salesforce</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>Salesforce</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>HR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accounts</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>Accounts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Management</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full Stack</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>Full Stack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Servicenow</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>Servicenow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admin</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 05:57:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 05:57:13</sys_updated_on>
+            <value>Admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Development</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 06:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 06:04:10</sys_updated_on>
+            <value>business_development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality Analyst</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 06:09:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 06:09:34</sys_updated_on>
+            <value>quality_analyst</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital Marketing</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 06:09:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 06:09:34</sys_updated_on>
+            <value>digital_marketing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Support</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 06:09:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 06:09:34</sys_updated_on>
+            <value>customer_support</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

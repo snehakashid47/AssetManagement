@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6b9ad8668361a290f257f3a6feaad362" extends="x_1734342_pletra_0_centralized_asset_table" label="Asset Return Tracking Table" max_length="40" name="x_1734342_pletra_0_asset_return_tracking_table" type="collection">
+        <element choice="3" label="Asset Status" max_length="40" name="asset_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Returned" sequence="0" value="returned"/>
+            </choice>
+        </element>
+        <element choice="3" label="Condition" max_length="40" name="condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Good" sequence="0" value="good"/>
+                <element inactive_on_update="false" label="Damaged" sequence="1" value="damaged"/>
+                <element inactive_on_update="false" label="Missing" sequence="2" value="missing"/>
+            </choice>
+        </element>
+        <element label="Employee Id" max_length="255" name="employee_id" type="string"/>
+        <element label="Returned Date" max_length="40" name="returned_date" type="glide_date"/>
+        <element label="Additional Comments" max_length="255" name="additional_comments" type="string"/>
+        <element label="Condition Verified By" max_length="255" name="condition_verified_by" type="string"/>
+    </element>
+</database>

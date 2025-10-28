@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1734342_pletra_0_asset_assignment_details">active=true</condition>
+        <group/>
+        <name>Pletra Asset Management - x_1734342_pletra_0_asset</name>
+        <roles/>
+        <source_table>x_1734342_pletra_0_asset_assignment_details</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-30 07:40:49</sys_created_on>
+        <sys_id>0c21b6548399e210f257f3a6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pletra Asset Management - x_1734342_pletra_0_asset</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_search_source_0c21b6548399e210f257f3a6feaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-30 07:40:49</sys_updated_on>
+    </sys_search_source>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f8345c8831d6210f257f3a6feaad3aa" extends="sys_import_set_row" label="Pletra 0 1745903014764" max_length="40" name="x_1734342_pletra_0_1745903014764" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=Graduation Passing Year" label="Graduation Passing Year" max_length="40" name="u_graduation_passing_year" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name= Gender" label=" Gender" max_length="40" name="u__gender" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name of the employee" label="Name of the employee" max_length="40" name="u_name_of_the_employee" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Service Cloud Consultant" label="SFDC # Service Cloud Consultant" max_length="40" name="u_sfdc___servi_oud_consultant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email ID" label="Email ID" max_length="40" name="u_email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dept" label="Dept" max_length="40" name="u_dept" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Browser Extension Installed -chrome" label="Is Browser Extension Installed -chrome" max_length="40" name="u_is_browser_e_talled__chrome" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Probation till" label="Probation till" max_length="40" name="u_probation_till" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Platform Dveloper 2 Certification" label="SFDC # Platform Dveloper 2 Certification" max_length="40" name="u_sfdc___platf__certificatio1" type="string"/>
+        <element attributes="import_attribute_name=Date of Highest Degree Passing" label="Date of Highest Degree Passing" max_length="40" name="u_date_of_high_degree_passing" type="integer"/>
+        <element attributes="import_attribute_name=SSC Passing Year" label="SSC Passing Year" max_length="40" name="u_ssc_passing_year" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Admin Certification" label="SFDC # Admin Certification" max_length="40" name="u_sfdc___admin_certification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Currant Status" label="Currant Status" max_length="40" name="u_currant_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Browser Extension Installed-edge" label="Is Browser Extension Installed-edge" max_length="40" name="u_is_browser_e_installed_edge" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Remark" label="Remark" max_length="64" name="u_remark" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Experience Cloud Consultant" label="SFDC # Experience Cloud Consultant" max_length="40" name="u_sfdc___exper_oud_consultant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Warranty till" label="Warranty till" max_length="40" name="u_warranty_till" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model Number" label="Model Number" max_length="40" name="u_model_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Admin Advanced" label="SFDC # Admin Advanced" max_length="40" name="u_sfdc___admin_advanced" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PG Passing year" label="PG Passing year" max_length="40" name="u_pg_passing_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Asset Returned Yes/No" label="Asset Returned Yes/No" max_length="40" name="u_asset_returned_yes_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Offer letter sign Yes/No" label="Offer letter sign Yes/No" max_length="40" name="u_offer_letter_sign_yes_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date of Birth" label="Date of Birth" max_length="40" name="u_date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Degree Name with Expertise" label="Degree Name with Expertise" max_length="48" name="u_degree_name_with_expertise" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Aadhar" label="Aadhar" max_length="40" name="u_aadhar" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Sales Cloud Consultant" label="SFDC # Sales Cloud Consultant" max_length="40" name="u_sfdc___sales_oud_consultant" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Graduation Subejct" label="Graduation Subejct" max_length="40" name="u_graduation_subejct" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Product Number" label="Product Number" max_length="40" name="u_product_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Probation - Active" label="Probation - Active" max_length="40" name="u_probation___active" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HSC %" label="HSC %" max_length="40" name="u_hsc__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Employee ID" label="Employee ID" max_length="40" name="u_employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial Number" label="Serial Number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Browser Extension Installed-mozilla" label="Is Browser Extension Installed-mozilla" max_length="40" name="u_is_browser_e_talled_mozilla" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Designation" label="Designation" max_length="40" name="u_designation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sr. No" label="Sr. No" max_length="40" name="u_sr__no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PG Subject" label="PG Subject" max_length="40" name="u_pg_subject" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Platform Developer 1 Certification" label="SFDC # Platform Developer 1 Certification" max_length="40" name="u_sfdc___platf__certification" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone 1" label="Phone 1" max_length="40" name="u_phone_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mail Status" label="Mail Status" max_length="40" name="u_mail_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone 2" label="Phone 2" max_length="40" name="u_phone_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Platform App Builder Certification" label="SFDC # Platform App Builder Certification" max_length="40" name="u_sfdc___platf__certificatio0" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date of Joining" label="Date of Joining" max_length="40" name="u_date_of_joining" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SSC %" label="SSC %" max_length="40" name="u_ssc__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PG %" label="PG %" max_length="40" name="u_pg__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HSC Passing Year" label="HSC Passing Year" max_length="40" name="u_hsc_passing_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Graduation %" label="Graduation %" max_length="40" name="u_graduation__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SFDC # Sharing and Visibility Designer" label="SFDC # Sharing and Visibility Designer" max_length="40" name="u_sfdc___shari_ility_designer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pan" label="Pan" max_length="40" name="u_pan" type="string"/>
+    </element>
+</database>

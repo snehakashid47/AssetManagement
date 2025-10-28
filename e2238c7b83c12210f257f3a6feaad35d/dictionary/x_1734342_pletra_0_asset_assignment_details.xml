@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="66bacd00839d6210f257f3a6feaad35c" label="Asset Assignment Details" max_length="40" name="x_1734342_pletra_0_asset_assignment_details" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employment Type" max_length="40" name="designation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Management" sequence="2" value="management"/>
+                <element inactive_on_update="false" label="Employee" sequence="0" value="employee"/>
+                <element inactive_on_update="false" label="Intern" sequence="1" value="intern"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="64" name="remark" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email ID" max_length="40" name="email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Current Status" max_length="40" name="current_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternate Phone Number" max_length="40" name="alternate_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset Returned Yes/No" max_length="40" name="asset_returned_yes_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Joining" max_length="40" name="date_of_joining" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of the employee" max_length="40" name="name_of_the_employee" type="string"/>
+        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Belgium" sequence="2" value="belgium"/>
+                <element inactive_on_update="false" label="Pune" sequence="0" value="pune"/>
+                <element inactive_on_update="false" label="Indore" sequence="1" value="indore"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Number" max_length="40" name="product_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="40" name="employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Number" max_length="40" name="model_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Primary PhoneNumber" max_length="40" name="primary_phonenumber" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Warranty till" max_length="40" name="warranty_till" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Sr. No" max_length="40" name="sr_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business Development" sequence="4" value="business_development"/>
+                <element inactive_on_update="false" label="Full Stack" sequence="8" value="full_stack"/>
+                <element inactive_on_update="false" label="HR" sequence="9" value="hr"/>
+                <element inactive_on_update="false" label="Management" sequence="5" value="management"/>
+                <element inactive_on_update="false" label="Advisory Director" sequence="2" value="Advisory Director"/>
+                <element inactive_on_update="false" label="Customer Service" sequence="6" value="customer_service"/>
+                <element inactive_on_update="false" label="Accounts" sequence="0" value="accounts"/>
+                <element inactive_on_update="false" label="ServiceNow" sequence="10" value="servicenow"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="3" value="salesforce"/>
+                <element inactive_on_update="false" label="Digital Marketing" sequence="7" value="digital_marketing"/>
+                <element inactive_on_update="false" label="Admin" sequence="1" value="admin"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

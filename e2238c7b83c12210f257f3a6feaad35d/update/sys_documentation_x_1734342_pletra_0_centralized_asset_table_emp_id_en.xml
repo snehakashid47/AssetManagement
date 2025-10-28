@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="emp_id" label="Emp_ID" language="en" table="x_1734342_pletra_0_centralized_asset_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>emp_id</element>
+            <help/>
+            <hint/>
+            <label>Emp_ID</label>
+            <language>en</language>
+            <name>x_1734342_pletra_0_centralized_asset_table</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-19 07:13:42</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Emp_ID</sys_name>
+            <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+            <sys_update_name>sys_documentation_x_1734342_pletra_0_centralized_asset_table_emp_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-19 07:18:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

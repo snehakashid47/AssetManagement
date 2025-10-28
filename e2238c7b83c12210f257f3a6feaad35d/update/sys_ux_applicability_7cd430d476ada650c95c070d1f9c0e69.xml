@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1734342_pletra_0.Public</api_name>
+        <description/>
+        <name>Public</name>
+        <role_names/>
+        <roles name="public">b0593b350a0a0aa7001d689e4542dc28</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 08:53:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cd430d476ada650c95c070d1f9c0e69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Public</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_ux_applicability_7cd430d476ada650c95c070d1f9c0e69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 08:53:30</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
