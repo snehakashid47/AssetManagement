@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=15704000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>testing_the_pdf_flow</internal_name>
+        <label_cache>[{"name":"25438a75-47ec-419a-8c1b-f7b214db9ca9.generated_document_id","label":"1 - Generate Document➛Generated Document Id","reference_display":"Generated Document Id","type":"string","base_type":"string","usedInstances":{"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2f4873d4-6a16-4090-ab00-91d44c28b8da"}},{"name":"Created_1.current.email_id","label":"Trigger - Record Created➛Centralized Asset Table Record➛Email Id","reference":"","reference_display":"Email Id","type":"string","base_type":"string","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"email_id","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["field_mappings"]}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Centralized Asset Table Record➛Assigned To","reference":"","reference_display":"Assigned To","type":"string","base_type":"string","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"assigned_to","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["field_mappings"],"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":[null],"abcd43a8-3404-4cf9-8a99-6bffe4f701dc":["field_mappings"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Centralized Asset Table Record","reference":"x_1734342_pletra_0_centralized_asset_table","reference_display":"Centralized Asset Table","type":"reference","base_type":"reference","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["target_sys_id","target_table"],"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":["ah_to"],"abcd43a8-3404-4cf9-8a99-6bffe4f701dc":["target_table"]},"attributes":{}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Centralized Asset Table Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"sys_id","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["target_sys_id"],"abcd43a8-3404-4cf9-8a99-6bffe4f701dc":["target_sys_id"]}},{"name":"Created_1.current.emp_id","label":"Trigger - Record Created➛Centralized Asset Table Record➛Emp_ID","reference":"","reference_display":"Emp_ID","type":"string","base_type":"string","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"emp_id","usedInstances":{"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":["ah_to"]}},{"name":"abcd43a8-3404-4cf9-8a99-6bffe4f701dc.generated_document_id","label":"1 - Generate Document➛Generated Document Id","reference_display":"Generated Document Id","type":"string","base_type":"string","usedInstances":{"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2f4873d4-6a16-4090-ab00-91d44c28b8da"}}]</label_cache>
+        <master_snapshot>d2545a9983fd2a10f257f3a6feaad32a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Testing the PDF Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>a6545a9983fd2a10f257f3a6feaad36f</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 03:36:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8aa50e1d837d2a10f257f3a6feaad3c6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Testing the PDF Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sys_hub_flow_8aa50e1d837d2a10f257f3a6feaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 11:00:09</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1734342_pletra_0_centralized_asset_table">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6545a9983fd2a10f257f3a6feaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:26</sys_updated_on>
+        <table>x_1734342_pletra_0_centralized_asset_table</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>8aa50e1d837d2a10f257f3a6feaad3c6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:58:01</sys_created_on>
+        <sys_id>74914f1983f16a10f257f3a6feaad350</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 11:00:09</sys_updated_on>
+        <trigger display_value="">a6545a9983fd2a10f257f3a6feaad36f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT IN74914f1983f16a10f257f3a6feaad350"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT IN46a50e1d837d2a10f257f3a6feaad3ef"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8aa50e1d837d2a10f257f3a6feaad3c6</id>
+        <name>Testing the PDF Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 03:36:14</sys_created_on>
+        <sys_id>46a50e1d837d2a10f257f3a6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 03:36:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=46a50e1d837d2a10f257f3a6feaad3ef"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT INb1541a9983fd2a10f257f3a6feaad3bb,b5549e9183fd2a10f257f3a6feaad385"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Testing the PDF Flow">8aa50e1d837d2a10f257f3a6feaad3c6</model>
+        <model_id>8aa50e1d837d2a10f257f3a6feaad3c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8aa50e1d837d2a10f257f3a6feaad3c6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:23</sys_created_on>
+        <sys_id>b1541a9983fd2a10f257f3a6feaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b1541a9983fd2a10f257f3a6feaad3bb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Testing the PDF Flow">8aa50e1d837d2a10f257f3a6feaad3c6</model>
+        <model_id>8aa50e1d837d2a10f257f3a6feaad3c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8aa50e1d837d2a10f257f3a6feaad3c6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:23</sys_created_on>
+        <sys_id>b5549e9183fd2a10f257f3a6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5549e9183fd2a10f257f3a6feaad385"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT INfd541a9983fd2a10f257f3a6feaad3dd"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Testing the PDF Flow">8aa50e1d837d2a10f257f3a6feaad3c6</flow>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:24</sys_created_on>
+        <sys_id>fd541a9983fd2a10f257f3a6feaad3dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:26:38</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLfUyaIBthvU9rYPQSpQ4tAWSlOuRCnxLvLvHepmWZIdO1a2zksQkRTnzNGZM6QfvuucuMD1K31GXA56T/eFhFAQPluvAIelGnYEWaq5JRGUyCBc61cyjKGnszBYzmC54kTiYkZ4hINBSCHUr8yenhAew3Qd3VHcCd9Pt8n31PNpfH52zKHdt/uWs+IgQ+IYjgcC/+H+N6AOiSKQTvES9SMMt/4zf3e8Wahdq4VakYi38DkNQehXD489fUVCDC4VsO+1KV+h85hHRhYYnm3almUY1mXfdC9s17SoTcAwcMM6U7VsZAthGyrgWYKgQEuWGlyGQOi94OtyxQI/RcbbkjxHmKF+dWmodQwQuwfZXPno5Mxkw94i8D24X0k/ENlIhjObDHi8FF8y/IpTYCTmsuAUR+II94OVgqxA5IjYdBE8TYqAn3yRZpdP8sAjvHwiUoa+G0uIFOHM50h99g2dKIjDFP3kdnw/uXH+up6Nf7udOJPb6WxyN57d3ugvaV7Ov7HaMUOYY3GydF5KIXzygasPiCtIKJcKbk+PvNBfyWtP+kmhy5feRuvjQFA/Zaahd6+Yirb1XjCwT/CGsVPyXiViIfu/b/9o6jkbPE67FxeEUCA7tOuyinarmbdAky0kVLPbp+J85BAZ9w3jfxJybltv1fEyoMBvNtvpODmfo7J9sYqlYuuJCBk5MnAIpU6FR7UUMb0m7Cy3l1cVHMYCX3DK79HUcUpbyd9nP0K4D1iJBTfpljjPPudbTmKhBfjh8I/mxSFSI7XC29jdksxzRtkUOHiyIgL2Nao+/e5HkS/mFdRl0JSDRswyHIpJK1LKYkcnBn/ssoibpCc1MmvFfHQlmyZjLjDLGKo6Ng3bZaYxNAaEUdswPKtSyU0wO1HKmiTepaKPq+coFSM/QHp1inPwRrUaDpJRsq3BggQlkdw2xt1AMzuCZiloNfuzj/K/UpbZ8M22Ovel1nH/JzQh+AY91AYPdEDGgye03je4n0u8f+ZhEAtatyO1p+YLbbNC+ynn7+cOnZAFIewHsL3inDxwQ3shXCLWHbifzUx3BH0w0PRs9Dt3MBq5HrEYG14MwTJr7reB0YrtQ7jeK2pL2uS6ywFbhZO06e0I7zsBYMMHjwZ4ugPmwmz1v2zuYzjd0wKEg1BDhysvaxjenPsUirluq70ROtnU96kVzy5H3sAcDr0h3lqw4lkfXGL2rQEZDS/sy0Gt4htQ9sGULcz8kLtMtI5SIDvc4Gs2dV4X9PeUbQRSqnZ0fJcWeI5N3yFZkEqnVJ9FS00lCLUvgfjlbrNOmwI2wPRC21W7PgSF+rDa+8JwA7lonBcw9K84vhVanTN3sHJ2V6qaSJLtXE++UkH/cjBidrvFsFGbxWzA7IZ59seLAysk2VlrbeeMQwWftNbNzoPBGyRck0n1xLDnSNMVKWbnpFjvR4p98jGqqMWd98i3gP1ALSw9V5zSx1RMcAJWNe+bQMMJDYNoPtPyXxKBau5akwtASjmelzGgpqKf6trVLtKEUir4xwLJTuCNbobDWn6AOr9GVZNCtzdgoEMyGNg7zsOj+g24DdAreM++bR1dFUlbke3tXcftW9+ztXtVJLutiAP7UqdZtzen07JubU+vZX1649l3f29BcaYt5fE/NkVXSGgfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT IN06fe325583f16a10f257f3a6feaad3aa,46541a9983fd2a10f257f3a6feaad3e2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Generate Document">06b9a1e2ecb22110fa9b4888159e65aa</action_type>
+        <action_type_parent display_value="Generate Document">21f825a2ecb22110fa9b4888159e652a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>06b9a1e2ecb22110fa9b4888159e65aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Testing the PDF Flow">8aa50e1d837d2a10f257f3a6feaad3c6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:46:38</sys_created_on>
+        <sys_id>06fe325583f16a10f257f3a6feaad3aa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 04:51:23</sys_updated_on>
+        <ui_id>abcd43a8-3404-4cf9-8a99-6bffe4f701dc</ui_id>
+        <values>H4sIAAAAAAAA/+1XTY/bNhD9KwbPlqEPWpbcQxHsIkCKNAa6bS5xIFDi0MuClhSJ2sQ1/N8z1IdtOV6tXWx62O6Rw0fNvMd5GunTlkhO5iTw45A54EISu67j2IKFMQ2CwJmG4E8ZkDFJ2RoQKSQoHq1Znst0VWL8ganKbGy3NwUwDTxyJklVFJDqCStLuUoxpLPdDrFclrlim49XHEnupeK4Q+afPo9JzgosQ0NB5tuTrUt5KBaDOkfkMYJ6k5v432WWtqv37SN+u1t8wFBWcFOQMybwTUPKASsRTJUwJmuWcqazYrOPIGG+SNUhcC9Tjc8iBvytlP9gLmrbtkEKQHYJNLv7ZdSq2ITFLdPsThdVoquihSb3mUygbHThIFil9M1xrAEsci2RU31Es1h1pzNVrdMPjRpk/4Du0jBSlVgE5Iaqqb0lIu7us69/dFW+lWmtSrupsoSp/YppXci40qaeLanknz2Jm/WJyKBgjdm6i4nyInuQdQYseD1ZKVxMhMq+YmWmgyYsMewmKD+bvMX4bR3+yAppqP6Oj8HDJtlfqfxSwTvTPkz4jrD5zArwEi0aU2EFyTSwgDqceXHiTH1BdmNSbsobhZ16EAlvJ/pSGYqNZK04UaOvOZIUMtdvsKgHPIL3BV3MSHDSdBgZwmM2vOx0tF2mo9GSHFlmSeYjwaOaNEq8WkFxzlmjXy9BTYwjRnPMsCTjJlWjLTPKDqU6gg2kOkb1ssA6V9kGIJJ8KEsVHQEH8vRxvUx7tsN8jmCXSHfKZ51xUFFarWMohgkdIwcZ9YC9ZCVgh1+WrQcdTNdH9vKhETm+fC5K2McOZjyBNimX6e6XZUp2u924HVw2DL3wY//wXtesWIGO0LrYBU/MrQZ06cg6Ql83rS4ovptWp9U/QqqdVSXqma5OptVdF2znlfts8yr4n86rvcz9ibUX+j+ZWbMQYo9RZomEuhatp5fvuFbiejR2ZuGMcv9ZZlatxd54ARvsXfZDjzY3Nui7Cw33b74Ln672xGlduedJXOMz79VnL8Fn3IsdESZggQ82fhu6zIph5lk8nIa2E4uZZ4c/wWeeO+WUMYBEnOncMDy0KM+SqpahN95uFze27WDjeD96q7d3naEuKKszVL+us8VeYyf6aqeXYKeAe3iDPDC/WqFFXWdqBTTxrFAIn8ZgU1/8DDvZw4Pg6I2fVTqvdCSkgqgOHTy1EALvdfSmLEGP3pVlBXz0HrSuWZ54bBB75efi07V3njtT/OO0rnHf9NV9L8F9IRMgAmGGmScs6jihFc8ALD/mNAi5S0PvOT8aP38H61kjE2gUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Testing the PDF Flow">8aa50e1d837d2a10f257f3a6feaad3c6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:24</sys_created_on>
+        <sys_id>46541a9983fd2a10f257f3a6feaad3e2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-04 04:51:23</sys_updated_on>
+        <ui_id>b9806a4b-c6eb-4ffc-a12a-d76775a8670b</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT IN53ee5a1983316a10f257f3a6feaad338,86fe325583f16a10f257f3a6feaad3b1,c6541a9983fd2a10f257f3a6feaad3e4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8aa50e1d837d2a10f257f3a6feaad3c6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{25438a75-47ec-419a-8c1b-f7b214db9ca9.generated_document_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 05:26:38</sys_created_on>
+        <sys_id>53ee5a1983316a10f257f3a6feaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 05:26:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a5e32707-9757-4670-90ef-42688181b0a3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8aa50e1d837d2a10f257f3a6feaad3c6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{abcd43a8-3404-4cf9-8a99-6bffe4f701dc.generated_document_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:46:38</sys_created_on>
+        <sys_id>86fe325583f16a10f257f3a6feaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:46:38</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5369c66d-f9d7-40f3-bee3-995b0dd8504e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8aa50e1d837d2a10f257f3a6feaad3c6</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:24</sys_created_on>
+        <sys_id>c6541a9983fd2a10f257f3a6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>388bb5f3-1f65-4094-9b27-b4a23f995190</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8aa50e1d837d2a10f257f3a6feaad3c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:23</sys_created_on>
+        <sys_id>b1541a9983fd2a10f257f3a6feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8aa50e1d837d2a10f257f3a6feaad3c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:23</sys_created_on>
+        <sys_id>b5541a9983fd2a10f257f3a6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8aa50e1d837d2a10f257f3a6feaad3c6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>testing_the_pdf_flow</internal_name>
+        <label_cache>[{"name":"25438a75-47ec-419a-8c1b-f7b214db9ca9.generated_document_id","label":"1 - Generate Document➛Generated Document Id","reference_display":"Generated Document Id","type":"string","base_type":"string","usedInstances":{"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2f4873d4-6a16-4090-ab00-91d44c28b8da"}},{"name":"Created_1.current.email_id","label":"Trigger - Record Created➛Centralized Asset Table Record➛Email Id","reference":"","reference_display":"Email Id","type":"string","base_type":"string","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"email_id","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["field_mappings"]}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Centralized Asset Table Record➛Assigned To","reference":"","reference_display":"Assigned To","type":"string","base_type":"string","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"assigned_to","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["field_mappings"],"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":[null],"abcd43a8-3404-4cf9-8a99-6bffe4f701dc":["field_mappings"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Centralized Asset Table Record","reference":"x_1734342_pletra_0_centralized_asset_table","reference_display":"Centralized Asset Table","type":"reference","base_type":"reference","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["target_sys_id","target_table"],"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":["ah_to"],"abcd43a8-3404-4cf9-8a99-6bffe4f701dc":["target_table"]},"attributes":{}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Centralized Asset Table Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"sys_id","usedInstances":{"25438a75-47ec-419a-8c1b-f7b214db9ca9":["target_sys_id"],"abcd43a8-3404-4cf9-8a99-6bffe4f701dc":["target_sys_id"]}},{"name":"Created_1.current.emp_id","label":"Trigger - Record Created➛Centralized Asset Table Record➛Emp_ID","reference":"","reference_display":"Emp_ID","type":"string","base_type":"string","parent_table_name":"x_1734342_pletra_0_centralized_asset_table","column_name":"emp_id","usedInstances":{"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":["ah_to"]}},{"name":"abcd43a8-3404-4cf9-8a99-6bffe4f701dc.generated_document_id","label":"1 - Generate Document➛Generated Document Id","reference_display":"Generated Document Id","type":"string","base_type":"string","usedInstances":{"b9806a4b-c6eb-4ffc-a12a-d76775a8670b":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2f4873d4-6a16-4090-ab00-91d44c28b8da"}}]</label_cache>
+        <master>true</master>
+        <name>Testing the PDF Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Testing the PDF Flow">8aa50e1d837d2a10f257f3a6feaad3c6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2545a9983fd2a10f257f3a6feaad32a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:58:01</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d2545a9983fd2a10f257f3a6feaad32a^sys_idNOT IN16545a9983fd2a10f257f3a6feaad32b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d2545a9983fd2a10f257f3a6feaad32a</id>
+        <name>Testing the PDF Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>16545a9983fd2a10f257f3a6feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=16545a9983fd2a10f257f3a6feaad32b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d2545a9983fd2a10f257f3a6feaad32a^sys_idNOT IN16545a9983fd2a10f257f3a6feaad338,1a545a9983fd2a10f257f3a6feaad32c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Testing the PDF Flow">d2545a9983fd2a10f257f3a6feaad32a</model>
+        <model_id>d2545a9983fd2a10f257f3a6feaad32a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d2545a9983fd2a10f257f3a6feaad32a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>16545a9983fd2a10f257f3a6feaad338</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:58:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=16545a9983fd2a10f257f3a6feaad338"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Testing the PDF Flow">d2545a9983fd2a10f257f3a6feaad32a</model>
+        <model_id>d2545a9983fd2a10f257f3a6feaad32a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d2545a9983fd2a10f257f3a6feaad32a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>1a545a9983fd2a10f257f3a6feaad32c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:58:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1a545a9983fd2a10f257f3a6feaad32c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d2545a9983fd2a10f257f3a6feaad32a^sys_idNOT IN1e545a9983fd2a10f257f3a6feaad35e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Testing the PDF Flow">d2545a9983fd2a10f257f3a6feaad32a</flow>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>1e545a9983fd2a10f257f3a6feaad35e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:46:46</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLfUyaIBthvU9rYPQSpQ4tAWSlOuRCnxLvLvHepmWZIdO1a2zksQkRTnzNGZM6QfvuucuMD1K31GXA56T/eFhFAQPluvAIelGnYEWaq5JRGUyCBc61cyjKGnszBYzmC54kTiYkZ4hINBSCHUr8yenhAew3Qd3VHcCd9Pt8n31PNpfH52zKHdt/uWs+IgQ+IYjgcC/+H+N6AOiSKQTvES9SMMt/4zf3e8Wahdq4VakYi38DkNQehXD489fUVCDC4VsO+1KV+h85hHRhYYnm3almUY1mXfdC9s17SoTcAwcMM6U7VsZAthGyrgWYKgQEuWGlyGQOi94OtyxQI/RcbbkjxHmKF+dWmodQwQuwfZXPno5Mxkw94i8D24X0k/ENlIhjObDHi8FF8y/IpTYCTmsuAUR+II94OVgqxA5IjYdBE8TYqAn3yRZpdP8sAjvHwiUoa+G0uIFOHM50h99g2dKIjDFP3kdnw/uXH+up6Nf7udOJPb6WxyN57d3ugvaV7Ov7HaMUOYY3GydF5KIXzygasPiCtIKJcKbk+PvNBfyWtP+kmhy5feRuvjQFA/Zaahd6+Yirb1XjCwT/CGsVPyXiViIfu/b/9o6jkbPE67FxeEUCA7tOuyinarmbdAky0kVLPbp+J85BAZ9w3jfxJybltv1fEyoMBvNtvpODmfo7J9sYqlYuuJCBk5MnAIpU6FR7UUMb0m7Cy3l1cVHMYCX3DK79HUcUpbyd9nP0K4D1iJBTfpljjPPudbTmKhBfjh8I/mxSFSI7XC29jdksxzRtkUOHiyIgL2Nao+/e5HkS/mFdRl0JSDRswyHIpJK1LKYkcnBn/ssoibpCc1MmvFfHQlmyZjLjDLGKo6Ng3bZaYxNAaEUdswPKtSyU0wO1HKmiTepaKPq+coFSM/QHp1inPwRrUaDpJRsq3BggQlkdw2xt1AMzuCZiloNfuzj/K/UpbZ8M22Ovel1nH/JzQh+AY91AYPdEDGgye03je4n0u8f+ZhEAtatyO1p+YLbbNC+ynn7+cOnZAFIewHsL3inDxwQ3shXCLWHbifzUx3BH0w0PRs9Dt3MBq5HrEYG14MwTJr7reB0YrtQ7jeK2pL2uS6ywFbhZO06e0I7zsBYMMHjwZ4ugPmwmz1v2zuYzjd0wKEg1BDhysvaxjenPsUirluq70ROtnU96kVzy5H3sAcDr0h3lqw4lkfXGL2rQEZDS/sy0Gt4htQ9sGULcz8kLtMtI5SIDvc4Gs2dV4X9PeUbQRSqnZ0fJcWeI5N3yFZkEqnVJ9FS00lCLUvgfjlbrNOmwI2wPRC21W7PgSF+rDa+8JwA7lonBcw9K84vhVanTN3sHJ2V6qaSJLtXE++UkH/cjBidrvFsFGbxWzA7IZ59seLAysk2VlrbeeMQwWftNbNzoPBGyRck0n1xLDnSNMVKWbnpFjvR4p98jGqqMWd98i3gP1ALSw9V5zSx1RMcAJWNe+bQMMJDYNoPtPyXxKBau5akwtASjmelzGgpqKf6trVLtKEUir4xwLJTuCNbobDWn6AOr9GVZNCtzdgoEMyGNg7zsOj+g24DdAreM++bR1dFUlbke3tXcftW9+ztXtVJLutiAP7UqdZtzen07JubU+vZX1649l3f29BcaYt5fE/NkVXSGgfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d2545a9983fd2a10f257f3a6feaad32a^sys_idNOT IN96545a9983fd2a10f257f3a6feaad35e,c00f725583f16a10f257f3a6feaad3f8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Testing the PDF Flow">d2545a9983fd2a10f257f3a6feaad32a</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>96545a9983fd2a10f257f3a6feaad35e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:46:47</sys_updated_on>
+        <ui_id>b9806a4b-c6eb-4ffc-a12a-d76775a8670b</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Generate Document">06b9a1e2ecb22110fa9b4888159e65aa</action_type>
+        <action_type_parent display_value="Generate Document">21f825a2ecb22110fa9b4888159e652a</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>06b9a1e2ecb22110fa9b4888159e65aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Testing the PDF Flow">d2545a9983fd2a10f257f3a6feaad32a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:46:46</sys_created_on>
+        <sys_id>c00f725583f16a10f257f3a6feaad3f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:58:01</sys_updated_on>
+        <ui_id>abcd43a8-3404-4cf9-8a99-6bffe4f701dc</ui_id>
+        <values>H4sIAAAAAAAA/+1XTY/bNhD9KwbPlqEPWpbcQxHsIkCKNAa6bS5xIFDi0MuClhSJ2sQ1/N8z1IdtOV6tXWx62O6Rw0fNvMd5GunTlkhO5iTw45A54EISu67j2IKFMQ2CwJmG4E8ZkDFJ2RoQKSQoHq1Znst0VWL8ganKbGy3NwUwDTxyJklVFJDqCStLuUoxpLPdDrFclrlim49XHEnupeK4Q+afPo9JzgosQ0NB5tuTrUt5KBaDOkfkMYJ6k5v432WWtqv37SN+u1t8wFBWcFOQMybwTUPKASsRTJUwJmuWcqazYrOPIGG+SNUhcC9Tjc8iBvytlP9gLmrbtkEKQHYJNLv7ZdSq2ITFLdPsThdVoquihSb3mUygbHThIFil9M1xrAEsci2RU31Es1h1pzNVrdMPjRpk/4Du0jBSlVgE5Iaqqb0lIu7us69/dFW+lWmtSrupsoSp/YppXci40qaeLanknz2Jm/WJyKBgjdm6i4nyInuQdQYseD1ZKVxMhMq+YmWmgyYsMewmKD+bvMX4bR3+yAppqP6Oj8HDJtlfqfxSwTvTPkz4jrD5zArwEi0aU2EFyTSwgDqceXHiTH1BdmNSbsobhZ16EAlvJ/pSGYqNZK04UaOvOZIUMtdvsKgHPIL3BV3MSHDSdBgZwmM2vOx0tF2mo9GSHFlmSeYjwaOaNEq8WkFxzlmjXy9BTYwjRnPMsCTjJlWjLTPKDqU6gg2kOkb1ssA6V9kGIJJ8KEsVHQEH8vRxvUx7tsN8jmCXSHfKZ51xUFFarWMohgkdIwcZ9YC9ZCVgh1+WrQcdTNdH9vKhETm+fC5K2McOZjyBNimX6e6XZUp2u924HVw2DL3wY//wXtesWIGO0LrYBU/MrQZ06cg6Ql83rS4ovptWp9U/QqqdVSXqma5OptVdF2znlfts8yr4n86rvcz9ibUX+j+ZWbMQYo9RZomEuhatp5fvuFbiejR2ZuGMcv9ZZlatxd54ARvsXfZDjzY3Nui7Cw33b74Ln672xGlduedJXOMz79VnL8Fn3IsdESZggQ82fhu6zIph5lk8nIa2E4uZZ4c/wWeeO+WUMYBEnOncMDy0KM+SqpahN95uFze27WDjeD96q7d3naEuKKszVL+us8VeYyf6aqeXYKeAe3iDPDC/WqFFXWdqBTTxrFAIn8ZgU1/8DDvZw4Pg6I2fVTqvdCSkgqgOHTy1EALvdfSmLEGP3pVlBXz0HrSuWZ54bBB75efi07V3njtT/OO0rnHf9NV9L8F9IRMgAmGGmScs6jihFc8ALD/mNAi5S0PvOT8aP38H61kjE2gUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d2545a9983fd2a10f257f3a6feaad32a^sys_idNOT IN980fb25583f16a10f257f3a6feaad319,9e545a9983fd2a10f257f3a6feaad35e,d40fb25583f16a10f257f3a6feaad319"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d2545a9983fd2a10f257f3a6feaad32a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{abcd43a8-3404-4cf9-8a99-6bffe4f701dc.generated_document_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:46:47</sys_created_on>
+        <sys_id>980fb25583f16a10f257f3a6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:46:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5369c66d-f9d7-40f3-bee3-995b0dd8504e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d2545a9983fd2a10f257f3a6feaad32a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.assigned_to}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>9e545a9983fd2a10f257f3a6feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>388bb5f3-1f65-4094-9b27-b4a23f995190</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d2545a9983fd2a10f257f3a6feaad32a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{25438a75-47ec-419a-8c1b-f7b214db9ca9.generated_document_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 07:46:47</sys_created_on>
+        <sys_id>d40fb25583f16a10f257f3a6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:46:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a5e32707-9757-4670-90ef-42688181b0a3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2545a9983fd2a10f257f3a6feaad32a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>5a545a9983fd2a10f257f3a6feaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2545a9983fd2a10f257f3a6feaad32a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:25</sys_created_on>
+        <sys_id>9a545a9983fd2a10f257f3a6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 04:40:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d2545a9983fd2a10f257f3a6feaad32a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8aa50e1d837d2a10f257f3a6feaad3c6</sys_id>
+        <latest_snapshot>d2545a9983fd2a10f257f3a6feaad32a</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch2-03-20-2025_04-02-2025_0516.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8aa50e1d837d2a10f257f3a6feaad3c6^sys_idNOT INe6545a9983fd2a10f257f3a6feaad371"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e6545a9983fd2a10f257f3a6feaad371","name":"plan","plan_signature":null}}</plan>
+        <plan_id>8aa50e1d837d2a10f257f3a6feaad3c6</plan_id>
+        <snapshot>07f952a783b92610f257f3a6feaad309</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 04:40:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6545a9983fd2a10f257f3a6feaad371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 07:46:47</sys_updated_on>
+        <trigger display_value="">a6545a9983fd2a10f257f3a6feaad36f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8aa50e1d837d2a10f257f3a6feaad3c6"/>
+</record_update>

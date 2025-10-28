@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Asset Assignment Details Table</name>
+        <retention_policy/>
+        <source>x_1734342_pletra_0_asset_assignment_details</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-30 07:40:51</sys_created_on>
+        <sys_id>2421f6548399e210f257f3a6feaad369</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Asset Assignment Details Table</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>ais_datasource_2421f6548399e210f257f3a6feaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-30 07:40:51</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

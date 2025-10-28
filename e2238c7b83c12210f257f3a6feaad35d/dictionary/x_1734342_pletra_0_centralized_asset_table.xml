@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a1c39408391a210f257f3a6feaad360" label="Centralized Asset Table" max_length="40" name="x_1734342_pletra_0_centralized_asset_table" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Model" max_length="255" name="model" type="string"/>
+        <element label="Upload Images of Asset" max_length="40" name="upload_images_of_asset" type="file_attachment"/>
+        <element choice="1" label="Asset Type" mandatory="true" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mouse" sequence="2" value="mouse"/>
+                <element inactive_on_update="false" label="Consumable / Non-IT" sequence="3" value="consumable_non_it"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Charger" sequence="1" value="charger"/>
+            </choice>
+        </element>
+        <element label="Emp_ID" max_length="255" name="emp_id" type="string"/>
+        <element label="Model Number" mandatory="true" max_length="255" name="model_number" type="string"/>
+        <element label="Product Number" mandatory="true" max_length="255" name="product_number" type="string"/>
+        <element choice="1" label="Location" mandatory="true" max_length="40" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pune" sequence="0" value="pune"/>
+                <element inactive_on_update="false" label="Indore" sequence="1" value="indore"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element display="true" label="Serial Number" mandatory="true" max_length="255" name="serial_number" type="string"/>
+        <element label="Assigned To" max_length="255" name="assigned_to" type="string"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_2" type="table_name"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="Invoice" max_length="40" name="invoice" type="file_attachment"/>
+        <element choice="3" label="Quantity" max_length="40" name="quantity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Assigned On" max_length="40" name="assigned_on" type="glide_date"/>
+        <element label="Warranty Till" max_length="40" name="warranty_till" type="glide_date"/>
+        <element label="Additional Notes" max_length="100" name="additional_notes" type="string"/>
+        <element label="Email Id" max_length="40" name="email_id" type="string"/>
+        <element label="Manufacturer" max_length="255" name="manufacturer" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Lenovo" sequence="1" value="Lenovo"/>
+                <element inactive_on_update="false" label="Asus" sequence="5" value="Asus"/>
+                <element inactive_on_update="false" label="Samsung" sequence="6" value="Samsung"/>
+                <element inactive_on_update="false" label="Apple" sequence="2" value="Apple"/>
+                <element inactive_on_update="false" label="HP" sequence="3" value="HP"/>
+                <element inactive_on_update="false" label="Dell" sequence="0" value="Dell"/>
+                <element inactive_on_update="false" label="Acer" sequence="4" value="Acer"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=true" choice="1" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accounts" sequence="2" value="Accounts"/>
+                <element inactive_on_update="false" label="Quality Analyst" sequence="8" value="quality_analyst"/>
+                <element inactive_on_update="false" label="Admin" sequence="6" value="Admin"/>
+                <element inactive_on_update="false" label="Business Development" sequence="7" value="business_development"/>
+                <element inactive_on_update="false" label="Management" sequence="3" value="Management"/>
+                <element inactive_on_update="false" label="Full Stack" sequence="4" value="Full Stack"/>
+                <element inactive_on_update="false" label="Digital Marketing" sequence="9" value="digital_marketing"/>
+                <element inactive_on_update="false" label="HR" sequence="1" value="HR"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="0" value="Salesforce"/>
+                <element inactive_on_update="false" label="Servicenow" sequence="5" value="Servicenow"/>
+                <element inactive_on_update="false" label="Customer Support" sequence="10" value="customer_support"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Purchase Price" mandatory="true" max_length="38" name="cost" type="currency"/>
+        <element choice="1" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In maintenance" sequence="2" value="in_maintenance"/>
+                <element inactive_on_update="false" label="Retired" sequence="3" value="retired"/>
+                <element inactive_on_update="false" label="In Use" sequence="0" value="in_use"/>
+                <element inactive_on_update="false" label="Missing/Lost" sequence="4" value="missing_lost"/>
+                <element inactive_on_update="false" label="In stock" sequence="1" value="in_stock"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

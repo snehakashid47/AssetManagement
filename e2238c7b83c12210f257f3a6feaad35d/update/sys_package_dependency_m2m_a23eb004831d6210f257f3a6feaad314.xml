@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Asset Management" source="com.snc.asset_management">70467fea5c8022105590c762d23e633b</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:40:20</sys_created_on>
+        <sys_id>a23eb004831d6210f257f3a6feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:40:20</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

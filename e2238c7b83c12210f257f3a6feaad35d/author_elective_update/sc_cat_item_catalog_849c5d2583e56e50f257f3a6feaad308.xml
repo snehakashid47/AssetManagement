@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New asset request">212c152583e56e50f257f3a6feaad3d1</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 08:59:28</sys_created_on>
+        <sys_id>849c5d2583e56e50f257f3a6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New asset request</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_849c5d2583e56e50f257f3a6feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 08:59:28</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sc_cat_item_catalog_849c5d2583e56e50f257f3a6feaad308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="New asset request">212c152583e56e50f257f3a6feaad3d1</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-16 08:59:28</sys_created_on><sys_id>849c5d2583e56e50f257f3a6feaad308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.New asset request</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sc_cat_item_catalog_849c5d2583e56e50f257f3a6feaad308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-16 08:59:28</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-578936154</payload_hash>
+        <record_name>Service Catalog.New asset request</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 08:59:28</sys_created_on>
+        <sys_id>889c5d2583e56e50f257f3a6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196d851e8780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 08:59:28</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4c9c5d2551e56e50df74b5d3dd61d40b</update_guid>
+        <update_guid_history>4c9c5d2551e56e50df74b5d3dd61d40b:-578936154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.New asset request">2dd76d2583296e50f257f3a6feaad38f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-16 09:48:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>168a9479de024938af440661ac372469</sys_id>
+        <sys_metadata>849c5d2583e56e50f257f3a6feaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New asset request</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent display_value="New asset request">212c152583e56e50f257f3a6feaad3d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_849c5d2583e56e50f257f3a6feaad308</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_849c5d2583e56e50f257f3a6feaad308">889c5d2583e56e50f257f3a6feaad30c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-16 09:48:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.my-widget-container {&#13;
+    min-height: 250px;&#13;
+  border: 1px solid #ddd;&#13;
+  border-radius: 8px;&#13;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);&#13;
+  padding: 15px;&#13;
+  background-color: #fff;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>dashboard_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Dashboard Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>x_1734342_pletra_0.admin,x_1734342_pletra_0.user</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 11:31:28</sys_created_on>
+        <sys_id>ab91e2e0832d2a50f257f3a6feaad308</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Dashboard Widget</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_widget_ab91e2e0832d2a50f257f3a6feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-15 11:56:38</sys_updated_on>
+        <template><![CDATA[<div class="my-widget-container">
+  <h4 class="text-primary mb-3" style="font-size: 2.5rem;">]]>📊<![CDATA[ View Asset Dashboard</h4>
+  <p style="font-size: 1.8rem;">Get a live snapshot of current company assets, their status, and more—all in one dashboard.
+</p>
+  <a href="https://dev319971.service-now.com/x/1734342/pletra-asset-management/home/params/sys-id/b9217a548399e210f257f3a6feaad3d4/" 
+     target="_blank" 
+
+     class="btn btn-outline-primary"  style="font-size: 1.5rem; font-weight: bold;">
+    ]]>📈<![CDATA[ Open Dashboard
+  </a>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

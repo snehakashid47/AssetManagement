@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Copy of Test Simple List (2) - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="copy_of_test_list_2">95688ee083a92a50f257f3a6feaad3dd</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:55:29</sys_created_on>
+        <sys_id>af9cc66883a92a50f257f3a6feaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Test Simple List (2) - Container 1</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_update_name>sp_container_af9cc66883a92a50f257f3a6feaad33f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:55:29</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</application>
+        <file_path/>
+        <instance_id>c5d82c45ebbcee94cbbffceacad0cdd7</instance_id>
+        <instance_name>dev319971</instance_name>
+        <name>sp_container_af9cc66883a92a50f257f3a6feaad33f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Copy of Test Simple List (2) - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="copy_of_test_list_2">95688ee083a92a50f257f3a6feaad3dd</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-13 09:55:29</sys_created_on><sys_id>af9cc66883a92a50f257f3a6feaad33f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of Test Simple List (2) - Container 1</sys_name><sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package><sys_policy/><sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope><sys_update_name>sp_container_af9cc66883a92a50f257f3a6feaad33f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-13 09:55:29</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-400402254</payload_hash>
+        <record_name>Copy of Test Simple List (2) - Container 1</record_name>
+        <reverted_from/>
+        <source>ae238c7b83c12210f257f3a6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:55:29</sys_created_on>
+        <sys_id>639cc66883a92a50f257f3a6feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196c9121d5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:55:29</sys_updated_on>
+        <type>Container</type>
+        <update_guid>679cc66894a92a50db1ca109db9ee541</update_guid>
+        <update_guid_history>679cc66894a92a50db1ca109db9ee541:-400402254</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Test Simple List (2) - Container 1">c1bc026883a92a50f257f3a6feaad393</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-13 09:55:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>be8165dee6ce423680a5253f7faa9c44</sys_id>
+        <sys_metadata>af9cc66883a92a50f257f3a6feaad33f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Test Simple List (2) - Container 1</sys_name>
+        <sys_package display_value="Pletra Asset Management" source="x_1734342_pletra_0">e2238c7b83c12210f257f3a6feaad35d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pletra Asset Management">e2238c7b83c12210f257f3a6feaad35d</sys_scope>
+        <sys_scope_delete display_value="">1aad968e2a344c148a84ea50d63acf04</sys_scope_delete>
+        <sys_update_name>sp_container_af9cc66883a92a50f257f3a6feaad33f</sys_update_name>
+        <sys_update_version display_value="sp_container_af9cc66883a92a50f257f3a6feaad33f">639cc66883a92a50f257f3a6feaad342</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 09:55:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

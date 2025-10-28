@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7d15c710831de210f257f3a6feaad359" label="New Asset Request" max_length="40" name="x_1734342_pletra_0_new_asset_request" type="collection">
+        <element choice="1" label="Location" mandatory="true" max_length="255" name="location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pune" sequence="1" value="pune"/>
+                <element inactive_on_update="false" label="Indore" sequence="0" value="indore"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element label="Date of Joining" mandatory="true" max_length="40" name="date_of_joining" type="glide_date"/>
+        <element label="Designation" max_length="255" name="designation" type="string"/>
+        <element display="true" label="Assigned To" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Department" mandatory="true" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business Development" sequence="3" value="business_development"/>
+                <element inactive_on_update="false" label="Management" sequence="7" value="management"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="0" value="salesforce"/>
+                <element inactive_on_update="false" label="Admin" sequence="4" value="admin"/>
+                <element inactive_on_update="false" label="Full Stack" sequence="1" value="full_stack"/>
+                <element inactive_on_update="false" label="HR" sequence="5" value="hr"/>
+                <element inactive_on_update="false" label="Accounts" sequence="2" value="accounts"/>
+                <element inactive_on_update="false" label="Customer Support" sequence="6" value="customer_support"/>
+            </choice>
+        </element>
+        <element choice="1" label="Employment Status" max_length="40" name="employment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Employee" sequence="0" value="employee"/>
+                <element inactive_on_update="false" label="Intern" sequence="1" value="intern"/>
+            </choice>
+        </element>
+        <element label="Additional Comments" max_length="255" name="additional_comments" type="string"/>
+        <element choice="3" default="Open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+            </choice>
+        </element>
+        <element label="Requested For" mandatory="true" max_length="255" name="requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
